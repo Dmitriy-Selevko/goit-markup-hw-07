@@ -63,7 +63,7 @@ h4 {
   border: 1px solid #ececec;
 }
 
-.header .flexbox {
+.header-flexbox {
   justify-content: flex-end;
   align-items: center;
 }
@@ -74,7 +74,7 @@ h4 {
   margin-right: auto;
 }
 
-.header .logo {
+.header-logo {
   margin-right: 93px;
 }
 
@@ -114,15 +114,15 @@ h4 {
 
 .menu-link:hover,
 .menu-link:focus,
-.menu-link.current {
+.menu-link-current {
   color: var(--accent-color);
 }
 
-.menu-link.current {
+.menu-link-current {
   position: relative;
 }
 
-.menu-link.current::after {
+.menu-link-current::after {
   content: "";
 
   position: absolute;
@@ -271,9 +271,7 @@ h4 {
   padding-bottom: 94px;
 }
 
-.whatwedo-title,
-.ourpeople-title,
-.ourclients-title {
+.whatwedo-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -320,6 +318,16 @@ h4 {
   background-color: var(--secondary-background-color);
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.ourpeople-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-bottom: 50px;
 }
 
 .ourpeople-item {
@@ -399,6 +407,16 @@ h4 {
   background-color: var(--primary-white-color);
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.ourclients-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-bottom: 50px;
 }
 
 .ourclients-item:not(:last-child) {
@@ -557,19 +575,19 @@ h4 {
   padding-bottom: 60px;
 }
 
-.footer .flexbox {
+.footer-flexbox {
   flex-direction: column;
 }
 
-.footer .logo {
+.footer-logo {
   margin-bottom: 20px;
+  color: var(--primary-white-color);
 }
 
-.adress-item:not(:first-child) {
+.footer-adress-item:not(:first-child) {
   margin-top: 9px;
 }
 
-.footer-logo,
 .footer-office {
   color: var(--primary-white-color);
 }
@@ -608,16 +626,16 @@ h4 {
   margin-bottom: 20px;
 }
 
-.footer-links .social-icon-link:hover,
-.footer-links .social-icon-link:focus {
+.footer-social-icon-link:hover,
+.footer-social-icon-link:focus {
   background-color: var(--accent-color);
 }
 
-.footer-links .social-icon-link {
+.footer-social-icon-link {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-links .social-icon {
+.footer-social-icon {
   fill: var(--primary-white-color);
 }
 
@@ -638,7 +656,7 @@ h4 {
   padding: 15px 16px;
 }
 
-.subscribe-form button {
+.subscribe-form-button {
   padding: 10px 62px 10px 29px;
   position: relative;
 
@@ -809,13 +827,11 @@ h4 {
   letter-spacing: 0.01em;
 
   color: rgba(117, 117, 117, 0.5);
-}
 
-textarea {
   resize: none;
 }
 
-.form-field.policy {
+.form-field-policy {
   margin-top: 90px;
 }
 
@@ -865,11 +881,11 @@ textarea {
   margin-right: 3px;
 }
 
-.policy a {
+.policy-link {
   color: var(--accent-color);
   text-decoration: underline;
 }
 
-.form .button:hover {
+.form-button:hover {
   background-color: #188ce8;
 }

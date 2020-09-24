@@ -17,14 +17,14 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <div class="container flexbox">
+      <div class="container flexbox header-flexbox">
         <nav class="navigation">
-          <a href="./index.html" class="logo"
+          <a href="./index.html" class="logo header-logo"
             ><span class="logo-accent">Web</span>Studio</a
           >
           <ul class="list menu-list">
             <li class="menu-item">
-              <a href="" class="link menu-link current">Студия</a>
+              <a href="" class="link menu-link menu-link-current">Студия</a>
             </li>
             <li class="menu-item">
               <a href="./portfolio.html" class="link menu-link">Портфолио</a>
@@ -167,7 +167,7 @@
           <h2 class="ourpeople-title">Наша команда</h2>
           <ul class="list ourpeople-list flexbox">
             <li class="ourpeople-item">
-              <div class="ourpeople-card">
+              <article class="ourpeople-card">
                 <img
                   src="./images/ourpeople-section/product-designer.jpg"
                   alt="Игорь Демьяненко"
@@ -237,10 +237,10 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
             <li class="ourpeople-item">
-              <div class="ourpeople-card">
+              <article class="ourpeople-card">
                 <img
                   src="./images/ourpeople-section/frontend-developer.jpg"
                   alt="Ольга Репина"
@@ -310,10 +310,10 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
             <li class="ourpeople-item">
-              <div class="ourpeople-card">
+              <article class="ourpeople-card">
                 <img
                   src="./images/ourpeople-section/marketing.jpg"
                   alt="Николай Тарасов"
@@ -383,10 +383,10 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
             <li class="ourpeople-item">
-              <div class="ourpeople-card">
+              <article class="ourpeople-card">
                 <img
                   src="./images/ourpeople-section/ui-designer.jpg"
                   alt="Михаил Ермаков"
@@ -456,7 +456,7 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </article>
             </li>
           </ul>
         </div>
@@ -521,22 +521,22 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="footer-main container">
-        <div class="flexbox">
-          <a href="./index.html" class="logo"
+        <div class="flexbox footer-flexbox">
+          <a href="./index.html" class="logo footer-logo"
             ><span class="logo-accent">Web</span
             ><span class="footer-logo">Studio</span></a
           >
           <address>
             <ul class="footer-adress list">
-              <li class="adress-item footer-office">
+              <li class="footer-adress-item footer-office">
                 г. Киев, пр-т Леси Украинки, 26
               </li>
-              <li class="adress-item">
+              <li class="footer-adress-item">
                 <a href="mailto:info@example.com" class="footer-tellandmail"
                   >info@example.com</a
                 >
               </li>
-              <li class="adress-item">
+              <li class="footer-adress-item">
                 <a href="tel:380991111111" class="footer-tellandmail"
                   >+38 099 111 11 11</a
                 >
@@ -544,63 +544,65 @@
             </ul>
           </address>
         </div>
+
         <div class="footer-links">
           <h3 class="footer-links-title">присоединяйтесь</h3>
           <ul class="list social-icon-list">
             <li class="social-icon-item">
               <a
-                class="social-icon-link"
+                class="social-icon-link footer-social-icon-link"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка Инстаграм"
               >
-                <svg class="social-icon">
+                <svg class="social-icon footer-social-icon">
                   <use href="./images/icons/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-icon-item">
               <a
-                class="social-icon-link"
+                class="social-icon-link footer-social-icon-link"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка Твиттер"
               >
-                <svg class="social-icon">
+                <svg class="social-icon footer-social-icon">
                   <use href="./images/icons/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-icon-item">
               <a
-                class="social-icon-link"
+                class="social-icon-link footer-social-icon-link"
                 href="https://facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка Фейсбук"
               >
-                <svg class="social-icon">
+                <svg class="social-icon footer-social-icon">
                   <use href="./images/icons/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-icon-item">
               <a
-                class="social-icon-link"
+                class="social-icon-link footer-social-icon-link"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="ссылка Линкедин"
               >
-                <svg class="social-icon">
+                <svg class="social-icon footer-social-icon">
                   <use href="./images/icons/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
+
         <div class="subscribe-form">
           <h3 class="subscribe-title">подпишитесь на рассылку</h3>
           <label class="subscribe-form-field">
@@ -610,7 +612,7 @@
               name="mail"
               placeholder="E-mail"
             />
-            <button class="button">
+            <button class="button subscribe-form-button">
               Подписаться<svg
                 class="subscribe-form-icon"
                 width="24"
@@ -673,14 +675,14 @@
             ></textarea>
           </label>
 
-          <label class="form-field policy">
+          <label class="form-field form-field-policy">
             <input class="policy-checkbox" type="checkbox" name="policy" />
             <span class="policy-icon"></span>
             <span class="policy-text">Соглашаюсь с рассылкой и принимаю</span
-            ><a href="">Условия договора</a>
+            ><a href="" class="policy-link">Условия договора</a>
           </label>
 
-          <button type="submit" class="button">Отправить</button>
+          <button type="submit" class="button form-button">Отправить</button>
         </form>
       </div>
     </div>
