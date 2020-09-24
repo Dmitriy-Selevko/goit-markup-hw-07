@@ -50,9 +50,9 @@ h4 {
 .logo {
   color: #212121;
   font-family: Raleway, sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  font-weight: 700;
 }
 
 .logo-accent,
@@ -103,9 +103,9 @@ h4 {
 
 .menu-link,
 .header-tellandmail {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 500;
   letter-spacing: 0.02em;
 }
 
@@ -192,9 +192,9 @@ h4 {
 
 .hero-title {
   color: #ffffff;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  font-weight: 900;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
@@ -210,9 +210,9 @@ h4 {
   background-color: #2196f3;
   width: 200px;
   height: 50px;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  font-weight: 700;
   letter-spacing: 0.06em;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -248,9 +248,9 @@ h4 {
 
 .advantage-title {
   color: #212121;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 10px;
@@ -258,9 +258,9 @@ h4 {
 
 .advantage-text {
   color: #757575;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
 }
 
 .whatwedo-section {
@@ -270,9 +270,9 @@ h4 {
 
 .whatwedo-title {
   color: #212121;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -292,9 +292,9 @@ h4 {
 .whatwedo-description {
   color: #ffffff;
   background: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   padding-top: 27px;
@@ -314,9 +314,9 @@ h4 {
 
 .ourpeople-title {
   color: #212121;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -339,18 +339,18 @@ h4 {
 
 .ourpeople-name {
   color: #212121;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  font-weight: 500;
   text-align: center;
   margin-top: 30px;
 }
 
 .ourpeople-specialization {
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
+  font-weight: 400;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 16px;
@@ -409,9 +409,9 @@ h4 {
 
 .ourclients-title {
   color: #212121;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -471,9 +471,9 @@ h4 {
 .selector-button {
   color: #212121;
   background-color: #f5f4fa;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  font-weight: 500;
   padding: 6px 22px;
   border-radius: 4px;
   border: 1px solid transparent;
@@ -541,17 +541,17 @@ h4 {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #ffffff;
-  font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
+  font-weight: 400;
   padding: 63px 24px;
 }
 
 .project-title {
   color: #212121;
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
   margin-top: 20px;
   margin-left: 24px;
@@ -560,9 +560,9 @@ h4 {
 
 .project-description {
   color: #757575;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+  font-weight: 400;
   margin-top: 4px;
   margin-bottom: 20px;
   margin-left: 24px;
@@ -600,9 +600,9 @@ h4 {
 
 .footer-office,
 .footer-tellandmail {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -622,9 +622,9 @@ h4 {
 .footer-links-title,
 .subscribe-title {
   color: #ffffff;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  font-weight: 700;
   text-transform: uppercase;
   margin-top: 72px;
   margin-bottom: 20px;
@@ -750,9 +750,9 @@ h4 {
 
 .modal-title {
   color: #212121;
-  font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
+  font-weight: 700;
   margin-bottom: 30px;
 }
 
@@ -808,9 +808,9 @@ h4 {
   -webkit-transform: translateY(-16px);
           transform: translateY(-16px);
   color: #757575;
-  font-weight: 400;
   font-size: 12px;
   line-height: 1.166;
+  font-weight: 400;
   letter-spacing: 0.01em;
 }
 
@@ -829,9 +829,9 @@ h4 {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.142;
+  font-weight: 400;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
   resize: none;
@@ -876,9 +876,9 @@ h4 {
 
 .policy-text {
   color: #757575;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-weight: 400;
   margin-right: 3px;
 }
 

@@ -20,9 +20,9 @@
 
 .hero-title {
   color: $primary-white-color;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+
+  @include font(44px, 1.36, 900);
+
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
