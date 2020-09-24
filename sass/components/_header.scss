@@ -1,0 +1,101 @@
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: $primary-white-color;
+  border: 1px solid #ececec;
+}
+
+.header-flexbox {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header-logo {
+  margin-right: 93px;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-link,
+.header-tellandmail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-link {
+  color: $title-text-color;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link-current {
+  color: $accent-color;
+}
+
+.menu-link-current {
+  position: relative;
+}
+
+.menu-link-current::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: -39px;
+
+  width: 100%;
+  height: 4px;
+  background-color: $accent-color;
+
+  border-radius: 2px;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-tellandmail {
+  color: $primary-text-color;
+  font-style: normal;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+.header-tellandmail:hover,
+.header-tellandmail:focus {
+  color: $accent-color;
+}
+
+.header-tellandmail:hover .icon-mail,
+.header-tellandmail:focus .icon-mail,
+.header-tellandmail:hover .icon-telephone,
+.header-tellandmail:focus .icon-telephone {
+  fill: $accent-color;
+}
+
+.icon-mail,
+.icon-telephone {
+  fill: $primary-text-color;
+  margin-right: 10px;
+}

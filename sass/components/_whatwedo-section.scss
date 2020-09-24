@@ -1,0 +1,47 @@
+.whatwedo-section {
+  background-color: $primary-white-color;
+  padding-bottom: 94px;
+}
+
+.whatwedo-title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.whatwedo-item {
+  width: calc((100% - 60px) / 3);
+}
+
+.whatwedo-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.whatwedo-img {
+  position: relative;
+}
+
+.whatwedo-description {
+  color: $primary-white-color;
+  background: rgba(47, 48, 58, 0.8);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 70px;
+}
