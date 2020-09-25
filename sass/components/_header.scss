@@ -24,43 +24,43 @@
   display: flex;
 }
 
-.menu-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.menu-link,
-.header-tellandmail {
-  @include font(14px, 1.14, 500);
-
-  letter-spacing: 0.02em;
+.menu-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .menu-link {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  @include font(14px, 1.14, 500);
+
+  letter-spacing: 0.02em;
+
   color: $title-text-color;
 }
 
-.menu-link:hover,
-.menu-link:focus,
 .menu-link-current {
-  color: $accent-color;
-}
+  &::after {
+    content: "";
 
-.menu-link-current {
+    position: absolute;
+    left: 0;
+    bottom: -39px;
+
+    width: 100%;
+    height: 4px;
+    background-color: $accent-color;
+
+    border-radius: 2px;
+  }
+
   position: relative;
-}
 
-.menu-link-current::after {
-  content: "";
-
-  position: absolute;
-  left: 0;
-  bottom: -39px;
-
-  width: 100%;
-  height: 4px;
-  background-color: $accent-color;
-
-  border-radius: 2px;
+  color: $accent-color;
 }
 
 .contacts-list {
@@ -69,32 +69,37 @@
   margin-left: auto;
 }
 
-.contacts-item:not(:last-child) {
-  margin-right: 50px;
+.contacts-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header-tellandmail {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  @include font(14px, 1.14, 500);
+
+  letter-spacing: 0.02em;
+
   color: $primary-text-color;
+
   font-style: normal;
 
   display: inline-flex;
   align-items: center;
 }
 
-.header-tellandmail:hover,
-.header-tellandmail:focus {
-  color: $accent-color;
-}
-
-.header-tellandmail:hover .icon-mail,
-.header-tellandmail:focus .icon-mail,
-.header-tellandmail:hover .icon-telephone,
-.header-tellandmail:focus .icon-telephone {
-  fill: $accent-color;
-}
-
 .icon-mail,
 .icon-telephone {
+  .header-tellandmail:hover &,
+  .header-tellandmail:focus & {
+    fill: $accent-color;
+  }
+
   fill: $primary-text-color;
   margin-right: 10px;
 }

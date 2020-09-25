@@ -14,11 +14,11 @@
 }
 
 .whatwedo-item {
-  width: calc((100% - 60px) / 3);
-}
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 
-.whatwedo-item:not(:last-child) {
-  margin-right: 30px;
+  width: calc((100% - 60px) / 3);
 }
 
 .whatwedo-img {

@@ -1,12 +1,16 @@
 .logo {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
   color: $title-text-color;
+
   font-family: Raleway, sans-serif;
 
   @include font(26px, 1.2, 700);
 }
 
-.logo-accent,
-.logo:hover,
-.logo:focus {
+.logo-accent {
   color: $accent-color;
 }

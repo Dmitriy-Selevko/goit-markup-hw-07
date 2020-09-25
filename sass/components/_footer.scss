@@ -13,8 +13,10 @@
   color: $primary-white-color;
 }
 
-.footer-adress-item:not(:first-child) {
-  margin-top: 9px;
+.footer-adress-item {
+  &:not(:first-child) {
+    margin-top: 9px;
+  }
 }
 
 .footer-office {
@@ -50,9 +52,11 @@
   margin-bottom: 20px;
 }
 
-.footer-social-icon-link:hover,
-.footer-social-icon-link:focus {
-  background-color: $accent-color;
+.footer-social-icon-link {
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
 
 .footer-social-icon-link {
